@@ -1,4 +1,6 @@
 #!/bin/env python3
+""" Module providing panigation helper function """
+
 
 def index_range(page , page_size):
 """Returns a tuple of size two containing a start index and an end index
