@@ -6,7 +6,7 @@ db.school.update(
     },
     {multi : true}
     )
-
+// a script that adds a new attribute to a document in the collection school
 
 
 
