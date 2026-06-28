@@ -1,4 +1,4 @@
-const returnHowManyArguments(... numbers) {
+export default function returnHowManyArguments(...numbers) {
     return numbers.length;
 }
   
