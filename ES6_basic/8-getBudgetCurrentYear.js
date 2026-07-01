@@ -7,9 +7,9 @@ function getCurrentYear() {
     const key = getCurrentYear();
     const budget = {
   
-    [`income-${key}`]: income;
-    [`gdp-${key}`]: gdp;
-    [`capita-${key}`]: capita;
+    [`income-${key}`]: income,
+    [`gdp-${key}`]: gdp,
+    [`capita-${key}`]: capita,
     };
   
     return budget;
