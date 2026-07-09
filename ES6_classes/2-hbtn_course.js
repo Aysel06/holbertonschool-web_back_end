@@ -10,6 +10,7 @@ export default class HolbertonCourse{
     set name(value){
         if(typeof value !== "string" ){
             throw new TypeError( "Name must be a string")
+            
         }
     }
     get length(){
