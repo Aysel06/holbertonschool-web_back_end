@@ -3,10 +3,9 @@ export default class Airport{
         this._name = name ;
         this._code = code ;
     }
-    [Symbol.toPrimitive](hint){
-        if (hint === "string"){
-            return `[object ${this._code}]`
-        }
+    get [Symbol.toStringTag](){
+        return this._code ;
     }
-
 }
+    
+
