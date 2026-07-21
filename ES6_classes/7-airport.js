@@ -5,7 +5,7 @@ export default class Airport{
     }
     [Symbol.toPrimitive](hint){
         if (hint === "string"){
-            return ` ${this._code}`
+            return `[object ${this._code}]`
         }
     }
 
